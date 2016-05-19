@@ -41,6 +41,8 @@ Now we show how web application servers work. We fire up a node server and creat
 
 We start off with explaining the concepts of authentication and authorization, and how they are necessary within the context of any web app such as twitter. Login form -> post request -> server -> db -> server -> bifurcated path depending on whether credentials were valid -> response -> browser
 
+Authorization: middleware that checks whether the user is authorized to receive the payload of the request he or she just made.
+
 Then we explain http sessions as detailed in here: http://machinesaredigging.com/2013/10/29/how-does-a-web-session-work/
 Key points:  
 
@@ -56,7 +58,7 @@ Key points:
 
   * Show and explain :  
 
-![alt text](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/session_cycle.jpg "HTTP Sessions")
+  ![alt text](http://machinesaredigging.com/blog-mad/wp-content/uploads/2013/10/session_cycle.jpg "HTTP Sessions")
 
   * So your user needs to be sending the session id every time they send a request in order for the server to know they are authenticated. Three ways to send session id:
 
@@ -74,14 +76,21 @@ Key points:
 
   * Another way to implement sessions: transferring all session data in an encrypted way back and forth every time, storing it in a cookie or in localstorage in the user's browser.
 
-5. Then we talk about the scalability drawbacks (as it pertains to sessions). We start by recapping what scalability/scaling is. Then we talk about load balancing, new VMs, loss of data during transmission (now you have 2 sessions),  and with some implementations of sessions (ie memory usage) when the app restarts then all user sessions are lost, which can start a spiral of issues when they all hit the db to log in at the same time.  
-6. Furthermore, there can be memory leak problems if you don't close and destroy your sessions manually.  
-7. Usually sessions are closed when you close your browser.  
-8. In every back end framework you are going to have slightly different options when implementing sessions.  
-9. Recap: sessions can be stored in server memory, database, and also in encrypted cookie/localstorage data that the user has to send with every request.  
-10. Another solution: token based authentication., which we explain tomorrow.  
-11. Further reading on sessions, including how to create memory stores and db stores:   http://expressjs-book.com/index.html%3Fp=128.html
-12. Practical, easy to follow examples on implementing sessions:  
+Then we talk about the scalability drawbacks (as it pertains to sessions). We start by recapping what scalability/scaling is. Then we talk about load balancing, new VMs, then we move on to the pitfalls:
+  * Loss of data during transmission means now you have 2 sessions  
+  * With some implementations of sessions (ie memory usage) when the app restarts then all user sessions are lost, which can start a spiral of issues when they all hit the db to log in at the same time.  
+  * Furthermore, there can be memory leak problems if you don't close and destroy your sessions manually.  
+  * Usually sessions are closed when you close your browser.  
+  * In every back end framework you are going to have slightly different options when implementing sessions.  
+
+Recap: sessions can be stored in server memory, database, and also in encrypted cookie/localstorage data that the user has to send with every request.  
+
+
+Another solution to the authorization problem: token based authentication, which is a stateless way to carry the session.  
+Further reading on sessions, including how to create memory stores and db stores:   http://expressjs-book.com/index.html%3Fp=128.html
+
+
+Practical, easy to follow examples on implementing sessions:  
 http://blog.modulus.io/nodejs-and-express-sessions
 
 
