@@ -103,7 +103,7 @@ https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 Rest of the day, if there's any time left, is codewars problems.
 
 ##Days 5-6:
-These lectures will be a brief but intense applied guided practice exercise. Students will develop an authentication scaffolding with express.js under the instructor's guidance.
+These lectures will be a brief but intense applied guided practice exercise. Students will develop an authentication scaffolding with express.js under the instructor's guidance. Finished version here: https://github.com/Swolebrain/simple-node-auth
 
 ##Day 7:
 Students are charged with creating a membership website with their resume emailer or any other project they've made, using the authentication scaffolding developed in previous days.
