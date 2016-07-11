@@ -3,28 +3,55 @@ Javascript WEB 2010
 
 Learning JavaScript is an essential part of being a Web Programmer.  It is the very first programming language you will learn as part of this course of study.  In this course you will learn the history and evolution of JavaScript, syntax, data types, variables, operators, literals, conditions and comparisons and arrays and loops.  Following this initial section students will learn objects, functions, events and the basics of cookies and debugging.  Additionally students will learn the browser object model, and JavaScript HTML document object model as well as synchronous JavaScript and XML, and JavaScript object notation.  Students will also gain an introductory understanding of frameworks and their applied uses.
 
-##Day 1
+Things I wanted to add but couldn't:
+Road map of web development
+Npm and tooling (budo, live reload)
 
-Deep dive of jQuery through the treehouse jQuery basics course. By the end of this class, students will know how to: use compound jQuery selectors, attach events to DOM elements,  traverse the DOM tree, iterate through element sets, modify the inner html of DOM elements by appending, replacing or prepending, and add attributes to DOM elements. jQuery function chaining is also discussed. As far as structure, students also get to see the technique of having an invisible overlay (display:none) which gets made visible when certain elements are clicked (lightbox). Students are also exposed to mouse events through the jQuery drawing app tutorial.
+###Summary
+Day 1: JS road trip part 3  
+Day 2: JS road trip part 3, continued. Recursion.  
+Day 3-4: create an arcade game like http://www.swolebrain.com/arcade_game  
+Day 5: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).
+Day 6: Refactor arcade game to use class syntax on a separate git branch.
+
+##Day 1
+Javascript Road Trip part 3. In this lecture we will cover the various ways in which to declare functions and the nuanced differences between them. We will also discuss variable scope and closures. Finally, we get an understanding of javascript hoisting of functions and variable declarations.
 
 ##Day 2
-Project work: build a lightbox of your own with your own styling and your own pictures, from scratch. The lightbox can be added to one of the sites they have worked on during a previous unit, or picking a template from html5up.net. Hacker points: make the lightbox position the image element with a margin-top which depends on the scroll position of the page (so that it's not one of those shitty lightboxes that you have to scroll up or down to see), and add a transition to the lightbox element.
+JS Road Trip part 3 - final bits. In this lecture, we cover objects and prototypes. We also cover recursion after the break. We define recursion as a function which calls itself and solve recursive definitions of factorial, fibonacci, product 1 to n, sum 1 to n, sum multiples of 3 or 5. We will showcase this explanation of recursion: http://everything2.com/index.pl?node_id=477013  
 
-##Day 3:  
-We will talk about the concepts covered in chapter 5 of eloquent javascript. Abstractions. When we talk about foreach, replace the gatherCorrelations concept with a simple 2D array with "rows" and "cols" used as variable names within the traversal.
+Advanced students can do the following solve the following:   https://www.codewars.com/kata/pascals-triangle  
+by following the formula outlined here:  
+https://www.hackerrank.com/challenges/pascals-triangle  
+Then they will build a full pascal triangle by using a **recursive function** based on the previous solution, and apply it in this kata:  https://www.codewars.com/kata/pascals-triangle-number-2  
 
-Define higher order functions - functions which work with other functions as parameters or return functions.
+**The final assessment will be for students to explain recursion and objects in their own words**
 
-Expand on the f.apply syntax in the transparentwrapping function.
+##Days 3-4:
+Arcade Game project. https://github.com/udacity/frontend-nanodegree-arcade-game
 
-Recap on filter, map reduce.
+##Day 5:
+Asynchronicity of Javascript. https://www.youtube.com/watch?v=vMfg0xGjcOI
+We first fix our memory game so that it gives feedback by making some of the code async.  
+Then we have students emulate a dice roll application like this one: http://www.bgfl.org/bgfl/custom/resources_ftp/client_ftp/ks1/maths/dice/index.htm  
 
-Place special emphasis in "The Cost" section.
+Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5.
 
-####TODO:
-Pick specific codewars katas for noob and medium skill levels. The instructor will guide students through completing those katas while emphasizing the importance of exercises like these in interview prep. Each student must complete at least 3, preferrably using 2d arrays, filter, map, reduce, foreach, or function currying.
+##Day 6:
+On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.
 
-##Day 4:
+##Day 7:  
+Intro to functional programming lecture. Slide materials here: https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing  
+After the functional programming presentation is over, We will talk about the concepts covered in chapter 5 of eloquent javascript: Abstractions. When we talk about foreach, replace the gatherCorrelations concept with a simple 2D array with "rows" and "cols" used as variable names within the traversal. We will also make emphasis on the f.apply syntax in the transparentwrapping function described in the book. We will also place special emphasis on "The Cost" section.
+
+The assessment will be to solve the following problems:
+- Write a function which receives an array and returns a new array with only the even elements present
+- Write a function which receives a string and returns a new string with only the vowels. Provide students with an isVowel function and also the preliminary string split step required before applying filter.
+- Write a function which uses reduce to find the maximum value in a list. (min value provided by instructor).
+- Advanced students: http://reactivex.io/learnrx/
+
+
+##Day 8:
 The first half of the class is discussion about servers, and an implementation of a simple hello world server on node. The second half is a talk about sessions and scaling. We open the lecture with a discussion of web app server architecture by showing these videos:
 
 https://www.youtube.com/watch?v=e4S8zfLdLgQ  
@@ -102,21 +129,15 @@ https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 
 Rest of the day, if there's any time left, is codewars problems.
 
-##Days 5-6:
-These lectures will be a brief but intense applied guided practice exercise. Students will develop an authentication scaffolding with express.js under the instructor's guidance. Finished version here: https://github.com/Swolebrain/simple-node-auth
-
-##Day 7:
-Students are charged with creating a membership website with their resume emailer or any other project they've made, using the authentication scaffolding developed in previous days.
-
-##Day 8:
-Assessment: Quote of the day. Example finished version: velozmontero.fvi-grad.com/quote
-TODO: Add a challenge mode for students who have been around for a while. Maybe such students can do the quiz app instead.
-
 ##Day 9:
-Build your own scrolling effects (elements that fade in as they come into the viewport) with 2 lines of jquery and using the "data" construct. The day's task is then to add such scrolling effects to a site the students have previously made or to a template from html5up.net
+These lectures will be a guided practice exercise which will provide an introduction to nodeJS.  
+Afterwards, we will do a cumulative programming and theory assessment.
 
 #Days 10-12:
-Lecture content is the "this" construct object and how to use it in the context of callbacks (cache it with a variable named self), event delegation and what it's for (when you bind events to elements that don't exist yet), jsonp, and the concept of APIs. We introduce the wikipedia API and we start the Wikipedia visualizer project, which is meant as a final asssessment.  
+
+We discuss the cross-origin limitation of AJAX and introduce the concept of JSONP (JSON with padding) as outlined in here http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms  
+
+We introduce the wikipedia API and we start the Wikipedia visualizer project, which is meant as a final asssessment.  
 
 Students should understand that for the wiki visualizer, they can build their api requests through a gui tool wikipedia has. It's called the wikipedia api sandbox (https://en.wikipedia.org/wiki/Special:ApiSandbox) You also need to make sure that they remember to put callback=? As part of the query string, and when they build the api request, they need to use the generator called search, and up top they need to have the property set to extracts so they can get extracts of the page. Finally, extracts to multiple hits only work if you have the exintro property checked.  
 
