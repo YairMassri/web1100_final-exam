@@ -7,12 +7,12 @@ Learning JavaScript is an essential part of being a Web Programmer.  It is the v
 Day 1: JS road trip part 3  
 Day 2: JS road trip part 3, continued. Recursion.  
 Day 3-4: create an arcade game like http://www.swolebrain.com/arcade_game  
-Day 5: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).
-Day 6: Refactor arcade game to use class syntax on a separate git branch.
-Day 7: Intro to functional programming
-Day 8: servers and sessions
-Day 9: intro to node, really simple server program
-Day 10: Introduce the wikipedia api project and herd them until they finish it on day 12.
+Day 5: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).  
+Day 6: Refactor arcade game to use class syntax on a separate git branch.  
+Day 7: Intro to functional programming  
+Day 8: servers and sessions  
+Day 9: intro to node, really simple server program  
+Day 10: Introduce the wikipedia api project and herd them until they finish it on day 12.  
 
 ##Homework for the unit:
 Depending on your skill level, you will do either the Basic Algorithm Scripting section of freecodecamp.com, the Intermediate Algorithm Scripting section, or at least 4 problems in the Advanced Algorithm Scripting section.
