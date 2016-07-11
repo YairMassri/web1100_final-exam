@@ -3,16 +3,19 @@ Javascript WEB 2010
 
 Learning JavaScript is an essential part of being a Web Programmer.  It is the very first programming language you will learn as part of this course of study.  In this course you will learn the history and evolution of JavaScript, syntax, data types, variables, operators, literals, conditions and comparisons and arrays and loops.  Following this initial section students will learn objects, functions, events and the basics of cookies and debugging.  Additionally students will learn the browser object model, and JavaScript HTML document object model as well as synchronous JavaScript and XML, and JavaScript object notation.  Students will also gain an introductory understanding of frameworks and their applied uses.
 
-Things I wanted to add but couldn't:
-Road map of web development
-Npm and tooling (budo, live reload)
-
 ###Summary
 Day 1: JS road trip part 3  
 Day 2: JS road trip part 3, continued. Recursion.  
 Day 3-4: create an arcade game like http://www.swolebrain.com/arcade_game  
 Day 5: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).
 Day 6: Refactor arcade game to use class syntax on a separate git branch.
+Day 7: Intro to functional programming
+Day 8: servers and sessions
+Day 9: intro to node, really simple server program
+Day 10: Introduce the wikipedia api project and herd them until they finish it on day 12.
+
+##Homework for the unit:
+Depending on your skill level, you will do either the Basic Algorithm Scripting section of freecodecamp.com, the Intermediate Algorithm Scripting section, or at least 4 problems in the Advanced Algorithm Scripting section.
 
 ##Day 1
 Javascript Road Trip part 3. In this lecture we will cover the various ways in which to declare functions and the nuanced differences between them. We will also discuss variable scope and closures. Finally, we get an understanding of javascript hoisting of functions and variable declarations.
@@ -130,7 +133,7 @@ https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 Rest of the day, if there's any time left, is codewars problems.
 
 ##Day 9:
-These lectures will be a guided practice exercise which will provide an introduction to nodeJS.  
+These lectures will be a guided practice exercise which will provide an introduction to nodeJS, npm, and a quick survey of tooling.  
 Afterwards, we will do a cumulative programming and theory assessment.
 
 #Days 10-12:
