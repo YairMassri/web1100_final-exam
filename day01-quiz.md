@@ -1,42 +1,42 @@
 1. What is the value of the result variable in the following code?
-```javascript
-var result = mystery("cow");
-function mystery(animal){
-  var callCount = 0;
-  if (animal == "chicken"){
-    return cluck();
-  }
-  else if (animal == "cow"){
-    return moo();
-  }
-  else return callCount;
+  ```javascript
+  var result = mystery("cow");
+  function mystery(animal){
+    var callCount = 0;
+    if (animal == "chicken"){
+      return cluck();
+    }
+    else if (animal == "cow"){
+      return moo();
+    }
+    else return callCount;
 
-  function cluck(){
-    callCount++;
-    return "cluck";
+    function cluck(){
+      callCount++;
+      return "cluck";
+    }
+    function moo(){
+      animal = "chicken";
+      return "moo" + mystery(animal);
+    }
   }
-  function moo(){
-    animal = "chicken";
-    return "moo" + mystery(animal);
-  }
-}
-```  
+  ```  
 
 2. What is printed as a result of the following code?
-```Javascript
-var g = f(10);
-console.log( g() );
-console.log( g() );
-console.log( g() );
+  ```Javascript
+  var g = f(10);
+  console.log( g() );
+  console.log( g() );
+  console.log( g() );
 
-function f(start){
-  var counter = start;
-  return function(){
-    counter++;
-    return counter;
+  function f(start){
+    var counter = start;
+    return function(){
+      counter++;
+      return counter;
+    }
   }
-}
-```  
+  ```  
 
 3. What is the value of the variable *result* after the following code block?
 
