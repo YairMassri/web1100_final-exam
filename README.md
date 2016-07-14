@@ -28,22 +28,22 @@ by following the formula outlined here:
 https://www.hackerrank.com/challenges/pascals-triangle  
 Then they will build a full pascal triangle by using a **recursive function** based on the previous solution, and apply it in this kata:  https://www.codewars.com/kata/pascals-triangle-number-2  
 
-**The final assessment will be for students to explain recursion and objects in their own words**
+We also introduce the arcade game project on this day.
 
-##Days 3-4:
+##Day 3:
 Arcade Game project. https://github.com/udacity/frontend-nanodegree-arcade-game
 
-##Day 5:
+##Day 4:
 Asynchronicity of Javascript. https://www.youtube.com/watch?v=vMfg0xGjcOI
 We first fix our memory game so that it gives feedback by making some of the code async.  
 Then we have students emulate a dice roll application like this one: http://www.bgfl.org/bgfl/custom/resources_ftp/client_ftp/ks1/maths/dice/index.htm  
 
 Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5.
 
-##Day 6:
+##Day 5:
 On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.
 
-##Day 7:  
+##Day 6:  
 Intro to functional programming lecture. Slide materials here: https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing  
 After the functional programming presentation is over, We will talk about the concepts covered in chapter 5 of eloquent javascript: Abstractions. When we talk about foreach, replace the gatherCorrelations concept with a simple 2D array with "rows" and "cols" used as variable names within the traversal. We will also make emphasis on the f.apply syntax in the transparentwrapping function described in the book. We will also place special emphasis on "The Cost" section.
 
@@ -54,7 +54,7 @@ The assessment will be to solve the following problems:
 - Advanced students: http://reactivex.io/learnrx/
 
 
-##Day 8:
+##Day 7:
 The first half of the class is discussion about servers, and an implementation of a simple hello world server on node. The second half is a talk about sessions and scaling. We open the lecture with a discussion of web app server architecture by showing these videos:
 
 https://www.youtube.com/watch?v=e4S8zfLdLgQ  
@@ -63,7 +63,7 @@ Put into context: Every link, script, img tag generates a separate request. The 
 https://www.youtube.com/watch?v=FTAPjr7vgxE  
 Make sure to explain that the definition of servers is very fuzzy. A server is no longer really just a machine. It can be and usually is a program.
 
-We then demonstrate the functioning of apache by having students log into their digitalocean space, edit their pages right as they sit on the web server and view changes in the browser.
+We then demonstrate the functioning of apache by having students log into their digital ocean space, edit their pages right as they sit on the web server and view changes in the browser.
 
 Now we show how web application servers work. We fire up a node server and create three basic routes using express. The first route is just a hello world route and the others demonstrate request parameters and query strings. The query string is just the POST body.
 
@@ -132,11 +132,11 @@ https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 
 Rest of the day, if there's any time left, is codewars problems.
 
-##Day 9:
+##Day 8:
 These lectures will be a guided practice exercise which will provide an introduction to nodeJS, npm, and a quick survey of tooling.  
 Afterwards, we will do a cumulative programming and theory assessment.
 
-#Days 10-12:
+#Days 9-11:
 
 We discuss the cross-origin limitation of AJAX and introduce the concept of JSONP (JSON with padding) as outlined in here http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms  
 
@@ -154,3 +154,7 @@ function(resp){
 }
 );
 ```
+
+#Day 12
+
+Final Exam.
