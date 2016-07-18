@@ -8,8 +8,8 @@ Day 1: JS road trip part 3
 Day 2: JS road trip part 3, continued. Recursion.  
 Day 3: create an arcade game like http://www.swolebrain.com/arcade_game  
 Day 4: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).  
-Day 5: Refactor arcade game to use class syntax on a separate git branch.  
-Day 6: Intro to functional programming  
+Day 5: Refactor arcade game to use class syntax on a separate git branch, set up a portfolio page.  
+Day 6: Intro to functional programming, continue portfolio page.  
 Day 7: servers and sessions  
 Day 8: intro to node, really simple server program  
 Day 9: Introduce the wikipedia api project and herd them until they finish it on day 11.  
@@ -42,7 +42,9 @@ Then we have students emulate a dice roll application like this one: http://www.
 Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5.
 
 ##Day 5:
-On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.
+On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.  
+
+During the second half of class, students will create a portfolio website based on the [1-col-portfolio layout](http://blackrockdigital.github.io/startbootstrap-1-col-portfolio/) at startbootstrap.com and also using bootswatch to paste components. 
 
 ##Day 6:  
 Intro to functional programming lecture. Slide materials here: https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing  
