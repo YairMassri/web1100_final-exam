@@ -89,7 +89,8 @@
 11. Write an instance method named getArea which returns the area of the Rectangle.
 12. Write a function named getTotalCoverage which receives an array of Rectangle objects, uses map to create an array with their areas, and then uses reduce to return the sum of their areas.
   ```javascript
-  function getTotalCoverage(rectArr){
+  const getTotalCoverage = (rectArr) => {
 
   }
   ```
+13. Explain the difference between *const*, *let*, and *var*.
