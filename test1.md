@@ -81,8 +81,21 @@ function thisIsWeird() {
   return result;
 }
 ```
-6. Create a new object called *athlete* with the following properties: name, age, sex, height, weight, and the last five marks reached in competitions (as an array named marks).
+6. Create a new type of Object called *Athlete* with the following properties: name, age, sex, height, weight, and the last five marks reached in competitions (as an array named marks). **Use pseudoclassical notation.**  
 
-7. Make a function that takes an athlete (according to the above problem) and return the marks average.
+7. Make a *prototypal function* named getMarksAverage which computes the average of the marks of the athlete.  
 
-8. Write a function which receives an athlete object and uses the map function to round the marks of the athlete to the nearest integer.
+8. Write a *prototypal function* which getRoundedMarks which uses the Array.map function and Math.round in order to round the marks of the athlete to the nearest integer. Your function should return an array with the rounded marks.  
+
+9. Write a class named Point2D which stores x and y coordinates.  
+
+10. Write a class named Rectangle which stores three variables: a Point2D to represent the top left of the Rectangle, a width and a height. **Use ES6 class syntax**.  
+
+11. Write an instance method named getArea which returns the area of the Rectangle.  
+
+12. Write a function named getTotalCoverage which receives an array of Rectangle objects, uses map to create an array with their areas, and then uses reduce to return the sum of their areas.  
+```javascript
+function getTotalCoverage(rectArr){
+
+}
+```
