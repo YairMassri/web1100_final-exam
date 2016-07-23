@@ -44,7 +44,7 @@ Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5.
 ##Day 5:
 On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.  
 
-During the second half of class, students will create a portfolio website based on the [1-col-portfolio layout](http://blackrockdigital.github.io/startbootstrap-1-col-portfolio/) at startbootstrap.com and also using bootswatch to paste components. 
+During the second half of class, students will create a portfolio website based on the [1-col-portfolio layout](http://blackrockdigital.github.io/startbootstrap-1-col-portfolio/) at startbootstrap.com and also using bootswatch to paste components.
 
 ##Day 6:  
 Intro to functional programming lecture. Slide materials here: https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing  
@@ -133,13 +133,16 @@ http://www.rightscale.com/blog/enterprise-cloud-strategies/architecting-scalable
 Stateless authentication:  
 https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication
 
-Rest of the day, if there's any time left, is codewars problems.
+Rest of the day we go through a guided practice exercise which will provide an introduction to nodeJS, npm, and a quick survey of tooling. We build a hello world server using express and see how easy sessions are to implement using express-session middleware. We follow Randy's express sessions primer.
 
 ##Day 8:
-These lectures will be a guided practice exercise which will provide an introduction to nodeJS, npm, and a quick survey of tooling.  
+Assessment, based on test1.md.
 Afterwards, we will do a cumulative programming and theory assessment.
 
-#Days 9-11:
+##Day 9:
+We discuss the Javascript [use strict](https://teamtreehouse.com/library/the-javascript-use-strict-statement-2) statement. We then move on to following along with the treehouse [Express Basics](https://teamtreehouse.com/library/install-expressjs) course.  
+
+#Days 10-11:
 
 We discuss the cross-origin limitation of AJAX and introduce the concept of JSONP (JSON with padding) as outlined in here http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms  
 
