@@ -46,7 +46,7 @@
 
   var prop1 = "talents";
   var prop2 = "blocking";
-  var result = dWade[prop1][prop2];
+  var result = d_Wade[prop1][prop2];
   ```
 
 4. What is the value of the variable *result* after the following code block?
