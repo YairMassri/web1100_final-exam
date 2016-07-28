@@ -24,6 +24,8 @@ Create a github repository with the name WEB2010 and push your two files there. 
 
 7. Add an instance method to your Gradebook class which is called getAverage. This method should use reduce to get the average score for the Assignments in the Array. Assume equal weight for all assignments.
 
-8. Transpile your ES6 code to ES5 and output it to a file named app.js
+8. What is node.js?
 
-9. Opportunity for bonus points: mention and explain 2 things which you learned in this course. You may explain by narrative or with an example. Some examples may be: arrow functions, filter, map, reduce, the difference betweem const, let and var, rest parameters, spread operator, modules, etc.
+9. What is an example of the usage of an http session? In other words, what are http sessions for?
+
+10. Opportunity for bonus points: mention and explain 2 things which you learned in this course. You may explain by narrative or with an example. Some examples may be: arrow functions, filter, map, reduce, the difference betweem const, let and var, rest parameters, spread operator, modules, etc.
