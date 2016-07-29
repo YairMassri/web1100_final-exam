@@ -29,3 +29,5 @@ Create a github repository with the name WEB2010 and push your two files there. 
 9. What is an example of the usage of an http session? In other words, what are http sessions for?
 
 10. Opportunity for bonus points: mention and explain 2 things which you learned in this course. You may explain by narrative or with an example. Some examples may be: arrow functions, filter, map, reduce, the difference betweem const, let and var, rest parameters, spread operator, modules, etc.
+
+11. Optional: Transpile your answers into the app.js file using browserify
