@@ -1,5 +1,5 @@
-//What is the value of x?  
-//cual es el valor de x?  
+//What is the value of x?
+//cual es el valor de x?
   ```javascript
   var a = "http://www.github.com/api?";
   var b = "repoid=";
@@ -8,8 +8,8 @@
   ```
 
 
-//what is the value of x?  
-//cual es el valor de x?  
+//what is the value of x?
+//cual es el valor de x?
   ```javascript
   var a = 5;
   var b = 6;
@@ -18,8 +18,8 @@
   ```
 
 
-//what is the value of x?  
-//cual es el valor de x?  
+//what is the value of x?
+//cual es el valor de x?
   ```javascript
   var arr = [1,2,3,4,5,6,7];
   var x = 0;
@@ -30,7 +30,7 @@
 
 /*Write a function which receives two inputs: a variable x and an array.
 it should return true whenever the variable x is present in the array
-and false otherwise.  
+and false otherwise.
 Escribe una function que recibe dos parametros: una variable x y un arreglo. Debe retornar verdadero cuando la variable x esta presente en el arreglo y falso de otra manera.
 */
   ```javascript
