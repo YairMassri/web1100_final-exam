@@ -1,4 +1,5 @@
-//What is the value of x?
+//What is the value of x?  
+//cual es el valor de x?  
 var a = "http://www.github.com/api?";
 var b = "repoid=";
 var c = 55;
@@ -6,7 +7,8 @@ var x = a+ b + c;
 
 
 
-//what is the value of x?
+//what is the value of x?  
+//cual es el valor de x?  
 var a = 5;
 var b = 6;
 var c = "hello"
@@ -14,7 +16,8 @@ var x = a + b + c;
 
 
 
-//what is the value of x?
+//what is the value of x?  
+//cual es el valor de x?  
 var arr = [1,2,3,4,5,6,7];
 var x = 0;
 for (var i = 0; i < arr.length; i++){
@@ -24,9 +27,11 @@ for (var i = 0; i < arr.length; i++){
 
 
 
-//Write a function which receives two inputs: a variable x and an array.
-//it should return true whenever the variable x is present in the array
-//and false otherwise.
+/*Write a function which receives two inputs: a variable x and an array.
+it should return true whenever the variable x is present in the array
+and false otherwise.  
+Escribe una function que recibe dos parametros: una variable x y un arreglo. Debe retornar verdadero cuando la variable x esta presente en el arreglo y falso de otra manera.
+*/
 function findX(arr, x){
 
 }
