@@ -101,6 +101,7 @@ var list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
 // The array below contains 5 students' names and their ages.
+// El siguiente arreglo contiene 5 nombres y edades de estudiantes
 var students = [
   ["clarise", 17],
   ["jose", 18],
@@ -108,20 +109,15 @@ var students = [
   ["brandon", 16],
   ["chuck", 18]
 ];
-// Create a function called minors that takes in a parameter called people.
-//
-// Create a for loop inside of minors that iterates through the people array.
-//
-// Inside the for loop, if a person has an age that is less than 18, log that
-// person's name (only their name, not their age) to the console.
-//
-// Then call minors and input the students array as the people parameter.
-
+/* Create a function called minors that takes in a parameter called people. Create a for loop inside of minors that iterates through the people array. Inside the for loop, if a person has an age that is less than 18, log that person's name (only their name, not their age) to the console. Then call minors and input the students array as the people parameter.
+Crea una funcion llamada menores que reciba un parametro. El parametro debe ser un arreglo que siga la estructura del arreglo students. Crea un for loop que haga lo siguiente: si alguna persona tiene edad menor de 18, pon el nombre (solo el nombre) de la persona en la consola. Luego llama a tu funcion minors y pasale el arreglo students como parametro.
+*/
 
 
 
 
 // Log "tuscon" to the console by accessing the myGarage object.
+// Loggea "tucson" a la consola accediendo a dicho valor mediante el siguiente objeto:
   var myGarage = {
     ford: "taurus",
     hyundai: "tuscon",
@@ -131,9 +127,9 @@ var students = [
 
 
 
-// What is the value of result after runninng the code below?
-// Do not use your console to solve this problem. Only use your head or
-// pen & paper.
+/* What is the value of result after runninng the code below? Do not use your console to solve this problem. Only use your head or pen & paper.
+Cual es el valor de result luego de ejecutar el siguiente codigo? No utilizes la consola para resolver este problema.
+*/
 function mystery(input) {
   var secret = 10;
   function mystery2(multiplier) {
@@ -149,7 +145,9 @@ var result = hidden(3);
 
 
 
-//In the following index.html file, include a style.css file and a main.js file
+/*In the following index.html file, include a style.css file and a main.js file
+En el siguiente archivo, incluye un style.css y un main.js
+*/
 <!DOCTYPE html>
 <html>
     <head>
@@ -167,23 +165,24 @@ var result = hidden(3);
 
 
 
-//What are the two main properties in a jQuery $.ajax call?
+//What are the two main properties in the object that must be passed as a parameter to a jQuery $.ajax call?
+//Cuales son las dos propiedades principales del objeto que hay que pasarle como parametro a la funcion $.ajax()?
 
 
 
-
-//Using css, how would you give an h1 element a black background?
-
-
+//Using css, how would you give h1 elements a black background?
+//Utilizando css, como le darias fondo negro a todos los elementos h1?
 
 
-//What values should a, b, and c have for the color black?
-rgb(a, b, c)
+
+//What values should a, b, and c have for the color black? rgb(a, b, c)
+//Cuales deben ser los valores de a, b, y c para obtener el color negro? rgb(a,b,c)
 
 
 
 
 //Using css, how would you center all of the elements inside of the following div?
+// Utilizando css, como centrarias todos los elementos dentro del siguiente div?
 <div class="freedom">
     <p>Ipsum flipsum hoodly doo</p>
     <p>Fiddle sticks and shoe strings</p>
