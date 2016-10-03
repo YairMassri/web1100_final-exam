@@ -1,51 +1,54 @@
 //What is the value of x?  
 //cual es el valor de x?  
-var a = "http://www.github.com/api?";
-var b = "repoid=";
-var c = 55;
-var x = a+ b + c;
-
-
-
-//what is the value of x?  
-//cual es el valor de x?  
-var a = 5;
-var b = 6;
-var c = "hello"
-var x = a + b + c;
-
+  ```javascript
+  var a = "http://www.github.com/api?";
+  var b = "repoid=";
+  var c = 55;
+  var x = a+ b + c;
+  ```
 
 
 //what is the value of x?  
 //cual es el valor de x?  
-var arr = [1,2,3,4,5,6,7];
-var x = 0;
-for (var i = 0; i < arr.length; i++){
-    x += arr[i];
-}
+  ```javascript
+  var a = 5;
+  var b = 6;
+  var c = "hello"
+  var x = a + b + c;
+  ```
 
 
-
+//what is the value of x?  
+//cual es el valor de x?  
+  ```javascript
+  var arr = [1,2,3,4,5,6,7];
+  var x = 0;
+  for (var i = 0; i < arr.length; i++){
+      x += arr[i];
+  }
+  ```
 
 /*Write a function which receives two inputs: a variable x and an array.
 it should return true whenever the variable x is present in the array
 and false otherwise.  
 Escribe una function que recibe dos parametros: una variable x y un arreglo. Debe retornar verdadero cuando la variable x esta presente en el arreglo y falso de otra manera.
 */
-function findX(arr, x){
+  ```javascript
+  function findX(arr, x){
 
-}
-
+  }
+  ```
 
 
 
 //write a function getAvg.
 //It should return the average of the values of the elements in the array.
 //The average is the sum of the elements divided by the number of elements.
-function getAvg(arr){
+  ```javascript
+  function getAvg(arr){
 
-}
-
+  }
+  ```
 
 
 
@@ -65,8 +68,9 @@ function getAvg(arr){
 
 
 //Write a complete jQuery statement which can attach an event listener to the button below
+```html
 <button id="el-boton">Aprietame</button>
-
+```
 
 
 
@@ -87,29 +91,33 @@ function getAvg(arr){
 
 // Write a for loop that iterates through every values in nums
 // and prints each value to the console.
-var nums = [1, 2, 3, 5, 7, 8, 10, 12, 45, 66, 87, 98];
-
+  ```javascript
+  var nums = [1, 2, 3, 5, 7, 8, 10, 12, 45, 66, 87, 98];
+  ```
 
 
 
 
 // Using the specific array function that adds data to the back end of the
 // array, add the next number to your newly corrected list.
-var list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
+  ```javascript
+  var list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  ```
 
 
 
 
 
 // The array below contains 5 students' names and their ages.
-var students = [
-  ["clarise", 17],
-  ["jose", 18],
-  ["emilia", 19],
-  ["brandon", 16],
-  ["chuck", 18]
-];
+  ```javascript
+  var students = [
+    ["clarise", 17],
+    ["jose", 18],
+    ["emilia", 19],
+    ["brandon", 16],
+    ["chuck", 18]
+  ];
+  ```
 // Create a function called minors that takes in a parameter called people.
 //
 // Create a for loop inside of minors that iterates through the people array.
@@ -124,36 +132,39 @@ var students = [
 
 
 // Log "tuscon" to the console by accessing the myGarage object.
-var myGarage = {
-  ford: "taurus",
-  hyundai: "tuscon",
-  honda: "civic",
-  tesla: "model S P100D"
-};
-
+```javascript
+  var myGarage = {
+    ford: "taurus",
+    hyundai: "tuscon",
+    honda: "civic",
+    tesla: "model S P100D"
+  };
+```
 
 
 
 // What is the value of result after runninng the code below?
 // Do not use your console to solve this problem. Only use your head or
 // pen & paper.
-function mystery(input) {
-  var secret = 10;
-  function mystery2(multiplier) {
-    multiplier *= input;
-    return secret * multiplier;
+  ```javascript
+  function mystery(input) {
+    var secret = 10;
+    function mystery2(multiplier) {
+      multiplier *= input;
+      return secret * multiplier;
+    }
+    return mystery2;
   }
-  return mystery2;
-}
 
-var hidden = mystery(2);
-var result = hidden(3);
-
+  var hidden = mystery(2);
+  var result = hidden(3);
+  ```
 
 
 
 
 //In the following index.html file, include a style.css file and a main.js file
+```HTML
 <!DOCTYPE html>
 <html>
     <head>
@@ -161,12 +172,13 @@ var result = hidden(3);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>App</title>
+
     </head>
     <body>
 
     </body>
 </html>
-
+```
 
 
 
