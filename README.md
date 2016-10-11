@@ -39,7 +39,7 @@ Asynchronicity of Javascript. https://www.youtube.com/watch?v=vMfg0xGjcOI
 We first fix our memory game so that it gives feedback by making some of the code async.  
 Then we have students emulate a dice roll application like this one: http://www.bgfl.org/bgfl/custom/resources_ftp/client_ftp/ks1/maths/dice/index.htm  
 
-Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5.
+Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, and 5.
 
 ##Day 5:
 On this day, we will introduce git branching and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade came to use ES6 class syntax and add any additional features they might like.  
