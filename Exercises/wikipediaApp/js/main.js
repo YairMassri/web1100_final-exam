@@ -2,14 +2,23 @@ $(document).ready(function() {
 
     $(".search-container").fadeIn(1000);
 
-    function articleMaker(title, snippet) {
+    $("#search").on("keydown", function(event) {
+        if (event.keyCode === 13) {
+            $("#articles").fadeOut(200, function() {
+                getArticles($("#search").val());
+                $("#search").val("");
+            });
+        }
+    })
+
+    function createArticle(title, snippet) {
         var article = (
             '<div class="article">' +
                 '<a href="https://en.wikipedia.org/wiki/' + title + '"target="_blank">' +
                     '<h3>' + title + '</h3>' +
                     '<p>"...' + snippet + '..."</p>' +
                 '</a>' +
-            '<div>'
+            '</div>'
         );
 
         return article;
@@ -22,27 +31,16 @@ $(document).ready(function() {
             dataType: "jsonp",
             success: function(response) {
                 console.log(response);
-
                 $("#articles").html("");
-
+                var articlesList = '';
                 response.query.search.forEach(function(obj) {
-                    var article = articleMaker(obj.title, obj.snippet);
-                    $('#articles').append(article);
+                    articlesList += createArticle(obj.title, obj.snippet);
                 });
-
+                $('#articles').append(articlesList);
                 $("#articles").fadeIn(300);
             }
         });
 
     }
-
-    $("#search").on("keydown", function(event) {
-        if (event.keyCode === 13) {
-            $("#articles").fadeOut(200, function() {
-                getArticles($("#search").val());
-                $("#search").val("");
-            });
-        }
-    })
 
 });
