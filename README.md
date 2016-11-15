@@ -43,7 +43,7 @@ Then we have students emulate a dice roll application like this one: http://www.
 Finally, we go into ES6 Javascript (CodeSchool) we cover levels 1, 2, 3, and 5. Then we refactor the canvas game with ES6 syntax.
 
 ##Day 5:
-On this day, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch.
+On this day, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their arcade game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch. Explanantion of [inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).
 
 During the second half of class, students will create a portfolio website based on the [1-col-portfolio layout](http://blackrockdigital.github.io/startbootstrap-1-col-portfolio/) at startbootstrap.com and also using bootswatch to paste components.
 
