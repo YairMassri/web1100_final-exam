@@ -137,6 +137,9 @@ Taco.prototype.render = function() {
 }
 
 var taco1 = new Taco(100 + Math.random() * 400, 100 + Math.random() * 400);
+var taco2 = new Taco(100 + Math.random() * 400, 100 + Math.random() * 400);
+taco2.width = 80;
+taco2.height = 80;
 
 
 
@@ -160,6 +163,8 @@ function gameLoop() {
 
     taco1.render();
     taco1.update();
+    taco2.render();
+    taco2.update();
 
     window.requestAnimationFrame(gameLoop);
 }
