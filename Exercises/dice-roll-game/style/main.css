@@ -49,9 +49,9 @@ h1,h2{
 }
 #die-container{
   width: 300px;
-  position:absolute;
+  position:relative;
   left:50%;
-  top:40%;
+  top:270px;
   transform: translateX(-50%);
 }
 #die{
