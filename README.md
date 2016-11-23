@@ -48,8 +48,8 @@ On this day, we will [introduce git branching](http://gitimmersion.com/lab_01.ht
 During the second half of class, students will create a portfolio website based on the [1-col-portfolio layout](http://blackrockdigital.github.io/startbootstrap-1-col-portfolio/) at startbootstrap.com and also using bootswatch to paste components.
 
 ##Day 6:  
-Intro to functional programming lecture. Slide materials here: https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing  
-After the functional programming presentation is over, We will talk about the concepts covered in chapter 5 of eloquent javascript: Abstractions. When we talk about foreach, replace the gatherCorrelations concept with a simple 2D array with "rows" and "cols" used as variable names within the traversal. We will also make emphasis on the f.apply syntax in the transparentwrapping function described in the book. We will also place special emphasis on "The Cost" section.
+[Intro to functional programming lecture](https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing)
+After the functional programming presentation is over, We will talk about the concepts covered in [chapter 5 of eloquent javascript: Abstractions](https://docs.google.com/presentation/d/1JxBhgt37xZgazl9gXMCQB9acQu7B-qvLdeO_SZlvyu4/edit#slide=id.p). When we talk about foreach, replace the gatherCorrelations concept with a simple 2D array with "rows" and "cols" used as variable names within the traversal. We will also make emphasis on the f.apply syntax in the transparentwrapping function described in the book. We will also place special emphasis on "The Cost" section.
 
 The assessment will be to solve the following problems:
 - Write a function which receives an array and returns a new array with only the even elements present
