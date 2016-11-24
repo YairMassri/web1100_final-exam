@@ -54,7 +54,7 @@ After the functional programming presentation is over, We will talk about the co
 The assessment will be to solve the following problems:
 - Write a function which receives an array and returns a new array with only the even elements present
 - Write a function which receives a string and returns a new string with only the vowels. Provide students with an isVowel function and also the preliminary string split step required before applying filter.
-- Write a function which uses reduce to find the maximum value in a list. (min value provided by instructor).
+- Write a function which uses reduce to find the maximum value in a list.
 - Advanced students: http://reactivex.io/learnrx/
 
 
