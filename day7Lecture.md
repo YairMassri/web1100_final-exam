@@ -1,7 +1,7 @@
 #Day 7 Lecture
 The first half of the class is discussion about servers, and an implementation of a simple hello world server on node. The second half is a talk about sessions and scaling.
 
-###Servers
+##Servers
 We open the lecture with a discussion of web app server architecture by showing these videos:
 
 https://www.youtube.com/watch?v=e4S8zfLdLgQ  
@@ -16,7 +16,7 @@ Now we show how web application servers work. We fire up a node server and creat
 
 --- break ---
 
-###Sessions & Scaling
+##Sessions & Scaling
 
 We start off with explaining the concepts of authentication and authorization, and how they are necessary within the context of any web app such as twitter. Login form -> post request -> server -> db -> server -> bifurcated path depending on whether credentials were valid -> response -> browser
 
