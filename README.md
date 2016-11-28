@@ -59,7 +59,7 @@ The assessment will be to solve the following problems:
 
 
 ##Day 7:
-The first half of the class is discussion about servers, and an implementation of a simple hello world server on node. The second half is a talk about sessions and scaling. We open the lecture with a discussion of web app server architecture by showing these videos:
+The first half of the class is discussion about servers, and an implementation of a simple hello world server on node. The second half is a talk about sessions and scaling.
 
 See [day7Lecture.md](day7Lecture.md) for the full lesson plan.
 
