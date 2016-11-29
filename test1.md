@@ -1,5 +1,25 @@
+1. Push an array containing 'John' and 35 as its only two values to the end of the people array, using JavaScript's push method.
+```
+var people = [ ['jose', 28], ['francis', 20], ['henrietta', 25] ];
+```
+2. Print the word 'potato' to the console by acessing the food array variable using bracket notation.
+```javascript
+var food = [ ['banana', 'lemon', 'strawberry'], ['almond', 'pecan', 'pistachio'], ['carrot', 'potato', 'beet'] ];
+```
+3. Use the following three variables to print a string to the console that makes sense.
+```javascript
+var a = " and I create web applications."
+var job = "Web Developer";
+var b = "Hello, I am a ";
+```
+4. Using escape sequences, such as \n, \t, and \\, assign the following 3 lines of code to the variable myStr, in one statement.
+```javascript
+FirstLine
+\SecondLine\
+ThirdLine
+```
 5. What is the value of the result variable in the following code?
-  ```javascript
+  ```Javascript
   var result = mystery("cow");
   function mystery(animal){
     var callCount = 0;
