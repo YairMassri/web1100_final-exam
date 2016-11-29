@@ -1,4 +1,28 @@
-1. What is the value of the result variable in the following code?
+1. Push an array containing 'John' and 35 as its only two values to the end of the people array, using JavaScript's push method.
+    ```javascript
+    var people = [ ['jose', 28], ['francis', 20], ['henrietta', 25] ];
+    ```
+
+2. Print the word 'potato' to the console by acessing the food array using bracket notation.
+    ```javascript
+    var food = [ ['banana', 'lemon', 'strawberry'], ['almond', 'pecan', 'pistachio'], ['carrot', 'potato', 'beet'] ];
+    ```
+
+3. Use the following three variables to print a string to the console that makes sense.
+    ```javascript
+    var a = " and I create web applications."
+    var job = "Web Developer";
+    var b = "Hello, I am a ";
+    ```
+
+4. Using escape sequences, such as \n, \t, and \', assign the following 3 lines of code to the variable myStr, in one statement.
+    ```javascript
+    FirstLine
+    'SecondLine'
+        ThirdLine
+    ```
+
+5. What is the value of the result variable in the following code?
   ```javascript
   var result = mystery("cow");
   function mystery(animal){
@@ -22,7 +46,7 @@
   }
   ```  
 
-2. What is printed as a result of the following code?
+6. What is printed as a result of the following code?
   ```Javascript
   var g = f(10);
   console.log( g() );
@@ -38,7 +62,7 @@
   }
   ```  
 
-3. What is the value of the variable *result* after the following code block?
+7. What is the value of the variable *result* after the following code block?
 
   ```javascript
   var d_Wade = {name: "Dwayne Wade", number: 23, position: "Shooting Guard",  
@@ -49,7 +73,7 @@
   var result = d_Wade[prop1][prop2];
   ```
 
-4. What is the value of the variable *result* after the following code block?
+8. What is the value of the variable *result* after the following code block?
   ```javascript
   var f = function(){
     return 99;
@@ -61,7 +85,7 @@
   }
   ```
 
-5. What is the value of the variable *result* after the following code block?
+9. What is the value of the variable *result* after the following code block?
   ```javascript
   var result = thisIsWeird();
   function thisIsWeird() {
@@ -81,18 +105,15 @@
     return result;
   }
   ```
-6. Create a new type of Object called *Athlete* with the following properties: name, age, sex, height, weight, and the last five marks reached in competitions (as an array named marks). **Use pseudoclassical notation.**
-7. Make a *prototypal function* named getMarksAverage which computes the average of the marks of the athlete.
-8. Write a *prototypal function* which getRoundedMarks which uses the Array.map function and Math.round in order to round the marks of the athlete to the nearest integer. Your function should return an array with the rounded marks.
-9. Write a class named Point2D which stores x and y coordinates.
-10. Write a class named Rectangle which stores three variables: a Point2D to represent the top left of the Rectangle, a width and a height. **Use ES6 class syntax**.
-11. Write an instance method named getArea which returns the area of the Rectangle.
-12. Write a function named getTotalCoverage which receives an array of Rectangle objects, uses map to create an array with their areas, and then uses reduce to return the sum of their areas.
+10. Create a new type of Object called *Athlete* with the following properties: name, age, sex, height, weight, and the last five marks reached in competitions (as an array named marks). **Use pseudoclassical notation.**
+11. Make a *prototypal function* on the Athlete prototype named getMarksAverage which computes the average of the marks of the athlete.
+12. Write a *prototypal function* on the Athlete prototype called getRoundedMarks which uses the Array.map function and Math.round in order to round the marks of the athlete to the nearest integer. Your function should return an array with the rounded marks.
+13. Write a class named Point2D which stores x and y coordinates.
+14. Write a class named Rectangle which stores three variables: a Point2D to represent the top left of the Rectangle, a width and a height. **Use ES6 class syntax**.
+15. Write an instance method inside the ES6 class named getArea which returns the area of the Rectangle.
+16. Write a function named getTotalCoverage which receives an array of Rectangle objects, uses map to create an array with their areas, and then uses reduce to return the sum of their areas.
   ```javascript
   const getTotalCoverage = (rectArr) => {
 
   }
   ```
-13. Explain the difference between *const*, *let*, and *var*.
-14. What is horizontal scalability?
-15. What is vertical scalability?
