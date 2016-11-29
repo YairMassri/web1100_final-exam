@@ -2,7 +2,7 @@
 ```
 var people = [ ['jose', 28], ['francis', 20], ['henrietta', 25] ];
 ```
-2. Print the word 'potato' to the console by acessing the food array variable using bracket notation.
+2. Print the word 'potato' to the console by acessing the food array using bracket notation.
 ```javascript
 var food = [ ['banana', 'lemon', 'strawberry'], ['almond', 'pecan', 'pistachio'], ['carrot', 'potato', 'beet'] ];
 ```
