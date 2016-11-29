@@ -12,7 +12,7 @@ var a = " and I create web applications."
 var job = "Web Developer";
 var b = "Hello, I am a ";
 ```
-4. Using escape sequences, such as \n, \t, and \\, assign the following 3 lines of code to the variable myStr, in one statement.
+4. Using escape sequences, such as \n, \t, and \\\, assign the following 3 lines of code to the variable myStr, in one statement.
 ```javascript
 FirstLine
 \SecondLine\
