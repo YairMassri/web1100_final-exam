@@ -93,6 +93,3 @@
 
   }
   ```
-13. Explain the difference between *const*, *let*, and *var*.
-14. What is horizontal scalability?
-15. What is vertical scalability?
