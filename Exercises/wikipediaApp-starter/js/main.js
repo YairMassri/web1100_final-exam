@@ -22,7 +22,7 @@ $(document).ready(function() {
         // similar to this:
         var article = "";
         article += '<div class="article">';
-        article += '<h3>' + title + '</h3>'
+        article += '<h3>' + title + '</h3>';
         article += '<p>' + snippet + '</p>';
         article += '</div>';
 
