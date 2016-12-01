@@ -48,7 +48,7 @@ $(document).ready(function() {
     // get the articles and pass the value of the search box to your getArticles
     // function
     $("#searchBox").on("keydown", function(event) {
-
+      // code here
     });
 
 });
