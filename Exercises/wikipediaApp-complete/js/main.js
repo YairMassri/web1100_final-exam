@@ -9,14 +9,20 @@ $(document).ready(function() {
             success: function(response) {
                 console.log(response);
 
-                $("#articles").html("");
+                $("#articles").html("").show();
 
                 response.query.search.forEach(function(obj) {
                     var article = articleMaker(obj.title, obj.snippet);
                     $('#articles').append(article);
                 });
 
-                $("#articles").fadeIn(300);
+                for(var i = 0, x = $('.article').length; i < x; i++) {
+                    (function(i) {
+                        setTimeout(function() {
+                            $('.article')[i].style.opacity = '1';
+                        }, 100 * i);
+                    })(i);
+                }
             }
         });
     }

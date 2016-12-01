@@ -68,6 +68,7 @@ body {
 }
 
 #articles .article {
+    opacity: 0;
     background-color: #ddd;
     margin: 15px 0;
     padding: 15px;
