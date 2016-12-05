@@ -49,8 +49,8 @@ However, you are allowed to look at your weather app.
 
 16. Now, we need to fix the css.
 
-    ..1. Center the search box and button
-    ..2. Put the search box and the submit button on the same line by
+    1. Center the search box and button
+    2. Put the search box and the submit button on the same line by
     giving them both `display: inline-block;`
-    ..3. Remove the underline from the articles by giving each anchor tag (id="article") `text-decoration: none;`
-    ..4. Make it look better using whatever else you want to, such as colors, padding, margin, etc.
+    3. Remove the underline from the articles by giving each anchor tag (id="article") `text-decoration: none;`
+    4. Make it look better using whatever else you want to, such as colors, padding, margin, etc.
