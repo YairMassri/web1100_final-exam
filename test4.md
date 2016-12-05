@@ -22,7 +22,7 @@ However, you are allowed to look at your weather app.
 
 8. Inside of the click handler for the button, cut the $.ajax call and put it inside of the click handler. This will run the $.ajax call when the user clicks on the button. However, your API call still won't work, because there is no string at the end of your url, after the "search=" property. We will add that now.
 
-9. At the end of your url, concatenate the value of the input element, which has an id of "search". Use the jQuery function called ```.val()``` to get its value.
+9. At the end of your url, concatenate the value of the input element, which has an id of "search". Use the jQuery function called `.val()` to get its value.
 
 10. In the $.ajax call, it has two properties: "url" and "success". Give it a third property called "dataType" and give it the value "jsonp".
 
@@ -33,7 +33,7 @@ However, you are allowed to look at your weather app.
     $("#temp").html(res2.main.temp);
 ```
 
-13. Then, empty the #articles div by putting empty quotes inside of the ```.html()``` method. This will delete the articles every time the user searches for a new article by clicking the "submit" button.
+13. Then, empty the #articles div by putting empty quotes inside of the `.html()` method. This will delete the articles every time the user searches for a new article by clicking the "submit" button.
 
 14. Then create a for loop that loops through all the articles inside of data.
 
@@ -51,6 +51,6 @@ However, you are allowed to look at your weather app.
 
     ..1. Center the search box and button
     ..2. Put the search box and the submit button on the same line by
-    giving them both ```display: inline-block;```
-    ..3. Remove the underline from the articles by giving each anchor tag (id="article") ```text-decoration: none;```
+    giving them both `display: inline-block;`
+    ..3. Remove the underline from the articles by giving each anchor tag (id="article") `text-decoration: none;`
     ..4. Make it look better using whatever else you want to, such as colors, padding, margin, etc.
