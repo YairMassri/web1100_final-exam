@@ -12,6 +12,7 @@ However, you are allowed to look at your weather app.
 4. Above jQuery, create an input tag with type="text" and id="search". Below your input tag, create a button element with id="submit". Below the button, create a div with id="articles".
 
 5. In app.js, create a jQuery ajax call to the following Wikipedia API url:
+...
 ```JavaScript
     'https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch='
 ```
