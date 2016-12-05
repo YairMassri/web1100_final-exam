@@ -1,4 +1,4 @@
-##Test 4
+##Final Exam - Wikipedia App
 
 Build the Wikipedia App without looking at the previous Wikipedia app you built.
 However, you are allowed to look at your weather app.
