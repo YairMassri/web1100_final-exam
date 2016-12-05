@@ -17,7 +17,7 @@ Below your input tag, create a button element with id="submit".
 Below the button, create a div with id="articles".
 
 5. In app.js, create a jQuery ajax call to the following Wikipedia API url:
-```JavaScript
+...```JavaScript
     'https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch='
 ```
 
@@ -50,7 +50,7 @@ did in the weather app (when data was called "res"). Then look at the data objec
 the "title" property and the "snippet" property. You need to put these properties
 into index.html with jQuery. You need to do this with jQuery, just like you did
 in the weather app. Below is an example from the weather app:
-```JavaScript
+...```JavaScript
     $("#temp").html(res2.main.temp);
 ```
 
@@ -62,7 +62,7 @@ article by clicking the "submit" button.
 
 15. Inside of this for loop, get the title and the snippet from each article
 and put them into some element tags. Then append them to index.html. An example is below:
-```JavaScript
+...```JavaScript
     $("#articles").append(
         "<a id='article' target='blank' href='https://en.wikipedia.org/wiki/'" + (title) + ">" +
             "<h3 id='title'>" + (title) + "</h3>" +
