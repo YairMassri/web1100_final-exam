@@ -3,7 +3,7 @@
 Build the Wikipedia App without looking at the previous Wikipedia app you built.
 However, you are allowed to look at your weather app.
 
-1. Start by creating a new directory called "WikipediaAppTest." Inside of this directory, create an index.html file, a directory called "js", and a directory called "style." Inside of style, create a file called main.css. Inside of js, create a file called app.js.
+1. Start by creating a new repo on GitHub called "WikipediaAppTest", and clone in to your computer. Inside of the main working directory, create an index.html file, a directory called "js", and a directory called "style." Inside of style, create a file called main.css. Inside of js, create a file called app.js.
 
 2. In index.html, include main.css and app.js with the appropriate element tags.
 
@@ -47,10 +47,12 @@ However, you are allowed to look at your weather app.
     );
    ```
 
-16. Now, we need to fix the css.
+16. Now, we need to fix the css:
 
     1. Center the search box and button
     2. Put the search box and the submit button on the same line by
     giving them both `display: inline-block;`
     3. Remove the underline from the articles by giving each anchor tag (id="article") `text-decoration: none;`
     4. Make it look better using whatever else you want to, such as colors, padding, margin, etc.
+    
+17. Submit your final exam to Canvas
