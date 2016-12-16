@@ -115,5 +115,5 @@
   ```javascript
   const getTotalCoverage = (rectArr) => {
 
-  }
+  };
   ```
