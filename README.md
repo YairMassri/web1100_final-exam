@@ -3,19 +3,7 @@ Javascript WEB 2010
 
 Learning JavaScript is an essential part of being a Web Programmer.  It is the very first programming language you will learn as part of this course of study.  In this course you will learn the history and evolution of JavaScript, syntax, data types, variables, operators, literals, conditions and comparisons and arrays and loops.  Following this initial section students will learn objects, functions, events and the basics of cookies and debugging.  Additionally students will learn the browser object model, and JavaScript HTML document object model as well as synchronous JavaScript and XML, and JavaScript object notation.  Students will also gain an introductory understanding of frameworks and their applied uses.
 
-###Summary
-Day 1: JS road trip part 3  
-Day 2: JS road trip part 3, continued. Recursion.  
-Day 3: create an arcade game like http://www.swolebrain.com/arcade_game  
-Day 4: Async programming, event loop, and implementing it with brief little project. Also ES6 basics (arrow functions, let and const, class syntax).  
-Day 5: Refactor arcade game to use class syntax on a separate git branch, set up a portfolio page.  
-Day 6: Intro to functional programming, continue portfolio page.  
-Day 7: servers and sessions  
-Day 8: intro to node, really simple server program  
-Day 9: Introduce the wikipedia api project and herd them until they finish it on day 11.  
-Day 12: Final
-
-##Homework for the unit:
+##Homework:
 Complete one of the following on freeCodeCamp.com:
 * All of the problems in the Basic Algorithm Scripting section
 * All of the problems in the Intermediate Algorithm Scripting section
@@ -46,7 +34,15 @@ Finally, we go into ES6 Javascript (CodeSchool) and complete levels 1, 2, 3, and
 ##Day 5:
 On this day, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their dice-roll-game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch.
 
-##Day 6:  
+##Day 6:
+Begin class with some exercises to prepare them for test 1, and then take [Test1](./test1).
+
+##Day 7:
+The first half of the class is discussion about servers, and an implementation of a simple hello world server using Express. The second half is a talk about sessions and scaling.
+
+See [day7Lecture.md](day7Lecture.md) for the full lesson plan.
+
+##Day 8:
 Give a lecture on the [Introduction to Functional Programming](https://docs.google.com/presentation/d/1NTxza91hMToWKqRyKll48AuxwamEik_nj4W1Cj6d8hs/edit?usp=sharing).
 After the functional programming presentation is over, we will talk about the concepts covered in [chapter 5 of eloquent javascript: Abstractions](https://docs.google.com/presentation/d/1JxBhgt37xZgazl9gXMCQB9acQu7B-qvLdeO_SZlvyu4/edit#slide=id.p).
 
@@ -56,16 +52,8 @@ Guide students through the following problems:
 - Write a function which uses reduce to find the maximum value in a list.
 - Advanced students: http://reactivex.io/learnrx/
 
-##Day 7:
-The first half of the class is discussion about servers, and an implementation of a simple hello world server using Express. The second half is a talk about sessions and scaling.
-
-See [day7Lecture.md](day7Lecture.md) for the full lesson plan.
-
-##Day 8:
-Begin class with some exercises to prepare them for test 1, and then take [Test1](./test1).
-
 ##Day 9:
-Students will create a portfolio website based on any of the [portfolio bootstrap themes](https://startbootstrap.com/template-categories/portfolios/), while using the [Bootstrap Documentation](http://getbootstrap.com/components/) to edit their pages.
+Students will create a portfolio website based on any of the [portfolio bootstrap themes](https://startbootstrap.com/template-categories/portfolios/), while using the [Bootstrap Documentation](http://getbootstrap.com/components/) to edit their pages. This is to teach them how to use BootStrap and to ensure they don't forget the skills they learned in WEB1010.
 
 #Days 10-11:
 We discuss the cross-origin limitation of AJAX and introduce the concept of JSONP (JSON with padding) as outlined in here http://stackoverflow.com/questions/3839966/can-anyone-explain-what-jsonp-is-in-layman-terms  
