@@ -1,4 +1,4 @@
-#Web2010 Final Exam
+#Web2010 Final Exam Alternative
 
 ##Instructions for submission
 You must create Javascript files containing only legal code and code comments. I should be able to include your files in an html file and have them work.
