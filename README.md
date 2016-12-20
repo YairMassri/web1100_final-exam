@@ -23,16 +23,17 @@ Then, they will build a full pascal triangle by using a **recursive function** b
 If there is time left, we introduce the [dice-roll-game](./Exercises/dice-roll-game).
 
 ##Day 3:
-Guide the students through creating the dice-roll-game. Students we practice using prototypal inheritance by creating methods for the players in the dice-roll-game. Explanantion of [inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).
+Guide the students through creating the dice-roll-game. Students will practice using prototypal inheritance by creating methods for the players in the dice-roll-game.
 
 ##Day 4:
 Discuss [Asynchronous JavaScript](https://www.youtube.com/watch?v=vMfg0xGjcOI) and explain how we have used it in previous apps that use $.ajax and in our dice-roll-game which uses setTimeout.
-Also, [What the heck is the Event Loop Anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)  
-
-Finally, we go into ES6 Javascript (CodeSchool) and complete levels 1, 2, 3, and 5.
+Also, [What the heck is the Event Loop Anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ).
+Then complete the dice-roll-game.
 
 ##Day 5:
-On this day, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge. As a project, students will refactor their dice-roll-game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch.
+We start off by guiding students through levels 1, 2, 3, and 5 of the ES6 track on codeschool.com.
+Then, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge.
+As a project, students will refactor their dice-roll-game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch.
 
 ##Day 6:
 Begin class with some exercises to prepare them for test 1, and then take [Test1](./test1).
