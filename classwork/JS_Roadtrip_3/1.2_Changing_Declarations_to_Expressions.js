@@ -29,7 +29,6 @@ function forestFright() {
 
 
 
-
 // Answer:
 var runAway = function () {
   var toAlert = "";
