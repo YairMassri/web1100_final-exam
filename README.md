@@ -20,10 +20,10 @@ by following the formula outlined here:
 https://www.hackerrank.com/challenges/pascals-triangle  
 Then, they will build a full pascal triangle by using a **recursive function** based on the previous solution, and apply it in this kata:  https://www.codewars.com/kata/pascals-triangle-number-2
 
-If there is time left, we introduce the [dice-roll-game](./Exercises/dice-roll-game).
+If there is time left, we introduce the [dice-roll-game](./complete-classwork/dice-roll-game-complete).
 
 ##Day 3:
-Guide the students through creating the dice-roll-game. Students will practice using prototypal inheritance by creating methods for the players in the dice-roll-game.
+Guide the students through creating the [dice-roll-game](./complete-classwork/dice-roll-game-complete). Students will practice using prototypal inheritance by creating methods for the players in the dice-roll-game.
 
 ##Day 4:
 Discuss [Asynchronous JavaScript](https://www.youtube.com/watch?v=vMfg0xGjcOI) and explain how we have used it in previous apps that use $.ajax and in our dice-roll-game which uses setTimeout.
