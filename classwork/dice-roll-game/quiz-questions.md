@@ -36,7 +36,7 @@
 
 16. Write a loop that iterates through the properties in the following object
     and prints each property and value to the console:
-
+   ```JavaScript
     var mustang = {
         engine: '5.0L V8'
         horsepower: 520,
@@ -44,7 +44,7 @@
         supercharged: true,
         turbocharged: false
     };
-
+    ```
 17. Which JavaScript method gets the position of an element?
 
 18. What is the main difference between function declarations and function
