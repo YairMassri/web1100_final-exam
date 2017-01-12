@@ -1,34 +1,31 @@
-var $dieAndNum = $('#die, #roll');
-var $die = $('#die');
-var $roll = $('#roll');
 var $hillary = $('#player1');
 var $trump = $('#player2');
-var hillaryPos = 0;
-var trumpPos = 0;
-var tiles = {};
+var $die = $('#die');
+var $roll = $('#roll');
+var $dieAndRoll = $('#die, #roll');
 var $winnerCircle = $('#winner-circle');
-var gameOver = false;
+var hillaryPosition = 0;
+var trumpPosition = 0;
+var $tiles = {};
 
-for(var i = 1; i <= 10; i++) {
-    tiles[i] = $('#tile' + i);
+for (var i = 1; i <= 10; i++) {
+    $tiles[i] = $('#tile' + i);
 }
 
-var turn;
-if(Math.random() > 0.5) {
-    turn = 'player1';
+var $currentPlayer = '';
+
+if (Math.random() > 0.5) {
+    $currentPlayer = $hillary;
 } else {
-    turn = 'player2';
+    $currentPlayer = $trump;
 }
 
-$dieAndNum.click(function() {
-    if(gameOver === true) return false;
-
-    // change the die image source to the gif
+$dieAndRoll.click(function() {
     $die.attr('src', './img/Dodecahedron3.gif');
     $roll.html('?');
 
-    // roll the die
     var num = Math.floor(Math.random() * 10 + 1);
+
     setTimeout(function() {
         $roll.html(num);
         movePlayer(num);
@@ -36,54 +33,46 @@ $dieAndNum.click(function() {
 });
 
 function movePlayer(num) {
-    var $playerToMove;
-    var newPosition;
-
-    // update player position and turn
-    if(turn === 'player1') {
-        $playerToMove = $hillary;
-        turn = 'player2';
-        hillaryPos += num;
-        newPosition = hillaryPos;
-    }
-    else {
-        $playerToMove = $trump;
-        turn = 'player1';
-        trumpPos += num;
-        newPosition = trumpPos;
+    var newPosition = null;
+    if($currentPlayer === $hillary) {
+        hillaryPosition += num;
+        newPosition = hillaryPosition;
+        $currentPlayer = $trump;
+    } else {
+        trumpPosition += num;
+        newPosition = trumpPosition;
+        $currentPlayer = $hillary;
     }
 
-    // check if win
-    if(trumpPos > 10 || hillaryPos > 10) {
-        onGameOver($playerToMove);
+    if(hillaryPosition > 10 || trumpPosition > 10) {
+        gameOver($currentPlayer);
         return false;
     }
 
-    // Move player
-    var tilePos = tiles[newPosition][0].getBoundingClientRect();
-    $playerToMove.css({
-        'top': tilePos.top,
-        'left': tilePos.left
+    var tilePosition = $tiles[newPosition][0].getBoundingClientRect();
+
+    $currentPlayer.css({
+        top: tilePosition.top,
+        left: tilePosition.left
     });
 }
 
-function onGameOver($winner) {
-    gameOver = true;
-    var tilePos = $winnerCircle[0].getBoundingClientRect();
+function gameOver($winner) {
+    var circlePosition = $winnerCircle[0].getBoundingClientRect();
     $winner.css({
-        'top': tilePos.top,
-        'left': tilePos.left
+        top: circlePosition.top,
+        left: circlePosition.left
     }).addClass('winner');
+
     setTimeout(function() {
-        alert($winner[0].id + ' wins!');
+        alert($winner[0].id + " wins!");
         reset();
-    }, 400);
+    }, 401);
 }
 
 function reset() {
-    gameOver = 0;
-    hillaryPos = 0;
-    trumpPos = 0;
+    hillaryPosition = 0;
+    trumpPosition = 0;
 
     $hillary.css({
         top: '160px',
@@ -93,10 +82,4 @@ function reset() {
         top: '250px',
         left: '10px'
     }).removeClass('winner');
-
-    if(Math.random() > 0.5) {
-        turn = 'player1';
-    } else {
-        turn = 'player2';
-    }
 }
