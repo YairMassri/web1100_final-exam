@@ -32,7 +32,7 @@ Also, [What the heck is the Event Loop Anyway?](https://www.youtube.com/watch?v=
 Then complete the dice-roll-game.
 
 ##Day 5:
-We start off by guiding students through levels 1, 2, 3, and 5 of the ES6 track on codeschool.com.
+We start off by reviewing the asynchronous lessons from the prior day. Then we begin guiding students through levels 1, 2, 3, and 5 of the ES6 track on codeschool.com.
 Then, we will [introduce git branching](http://gitimmersion.com/lab_01.html) and the team workflow: branch-work-switch-pull-merge.
 As a project, students will refactor their dice-roll-game in a new branch using ES6 class syntax and add any additional features they might like. Then, they will merge their ES6 branch into their master branch.
 
