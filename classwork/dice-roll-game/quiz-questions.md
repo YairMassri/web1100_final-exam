@@ -38,9 +38,9 @@
     and prints each property and value to the console:
    ```JavaScript
     var mustang = {
-        engine: '5.0L V8'
-        horsepower: 520,
-        torque: 437,
+        engine: '5.2L V8'
+        horsepower: 526,
+        torque: 429,
         supercharged: true,
         turbocharged: false
     };
