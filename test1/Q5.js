@@ -1,12 +1,12 @@
 // Question 5
 
-// Add a new property to the cars object call 'getModels' WITHOUT typing inside
+// Add a new property to the cars object called 'getModels' WITHOUT typing inside
 // the cars definition below.
 
 // The value of the getModels property should be a function that creates an
 // empty array called models, then pushes only the models from cars.list to the
-// models array, and then returns the models array, similar to how to brands
-// array works.
+// models array, and then returns the models array, similar to how the getBrands
+// method works.
 
 // Lastly, log to the console the return value of the getModels method.
 
