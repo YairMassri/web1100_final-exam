@@ -5,5 +5,5 @@
 // Then call console.log and pass it the return value of passing 3 to bar.
 
 function foo(num) {
-  return num + 5;
+  return num + 2;
 }
