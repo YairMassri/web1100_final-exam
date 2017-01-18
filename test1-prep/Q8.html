@@ -15,7 +15,7 @@ plain javascript, such as button stored in subtitle below: -->
 
 <!-- In the script element at the bottom of the body, use the getBoundingClientRect
 method on the $subtitle variable. Since $subtitle has a jQuery element inside of it, you
-need to do something different than in the code above. Then log the top position
+need to do something different than in the code above. Then consol.log the top position
 of the $subtitle element, similar to how it was done above. -->
 
 <!DOCTYPE html>
@@ -40,6 +40,8 @@ of the $subtitle element, similar to how it was done above. -->
     <!-- Your JavaScript code -->
     <script>
         var $subtitle = $('#subtitle');
+        var subtitlePosition = $subtitle[0].getBoundingClientRect();
+        console.log("subtitle top position: " + subtitlePosition.top );
     </script>
 </body>
 </html>
