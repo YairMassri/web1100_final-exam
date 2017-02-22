@@ -27,21 +27,3 @@ vehicle1.weapon = "Rear-Mounted Slingshot";
 vehicle3.submersible = true;
 
 // add properties and assign values
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-vehicle3["# of weapons"] = 8;
-vehicle2["# of weapons"] = 4;
-vehicle1["# of weapons"] = 1;

@@ -32,19 +32,3 @@ var polarBearAlert     = warningMaker("polar bear");
 var icebergAlert       = warningMaker("iceberg");
 var flashBlizzardAlert = warningMaker("flash blizzard");
 var snowYetiAlert      = warningMaker("snow yeti");
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-killerPenguinAlert(6, "Ice Caves");
-snowYetiAlert(1, "Blizzard Beach");

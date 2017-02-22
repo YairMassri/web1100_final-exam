@@ -20,22 +20,3 @@ function thisIsWeird() {
   }
   return result;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-function secret() {
-  var unused2;
-}

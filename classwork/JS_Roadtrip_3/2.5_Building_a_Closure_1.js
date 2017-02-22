@@ -18,25 +18,3 @@ function warningMaker(obstacle) {
 //      Beware! There have been <obstacle> sightings in the Cave today!
 //
 // Note: You do not need to call the warningMaker function.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-function warningMaker(obstacle) {
-  return function () {
-  	alert("Beware! There have been " + obstacle + " sightings in the Cave today!");
-  };
-}

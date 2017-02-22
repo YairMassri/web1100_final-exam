@@ -16,37 +16,3 @@ var fearGenerated = function(numPeeps, rainInInches, numSharks) {
 };
 
 // Use the code above in your solution.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-var fearGenerated = function(numPeeps, rainInInches, numSharks) {
-  var rainFear = numPeeps * rainInInches;
-  var sharkFear = numSharks * numSharks * numSharks;
-  var totalFear = sharkFear + rainFear;
-  return totalFear;
-};
-
-alert(fearGenerated);
-
-// Output:
-function(numPeeps, rainInInches, numSharks) {
-  var rainFear = numPeeps * rainInInches;
-  var sharkFear = numSharks * numSharks * numSharks;
-  var totalFear = sharkFear + rainFear;
-  return totalFear;
-}

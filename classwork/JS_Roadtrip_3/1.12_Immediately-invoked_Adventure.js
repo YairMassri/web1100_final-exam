@@ -19,18 +19,3 @@ function adventureSelector(userChoice) {
     };
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-adventureSelector(3)();

@@ -21,28 +21,3 @@ lighthousePointe.addBulb = function(name, wattage) {
 };
 
 // call addBulb and pass in the correct arguments
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-lighthousePointe.addBulb("Blasterbright", 5000);
-lighthousePointe.addBulb("Sight Slayer", 1800);
-lighthousePointe.addBulb("Burner of Souls", 7500);

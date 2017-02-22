@@ -17,39 +17,3 @@
 // Within each object literal, create properties for type, capacity, and
 // storedAt, and use the same order provided above. Make sure to store numbers
 // as number values, and text as string values.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-var vehicle1 = {
-  type: "Motorboat",
-  capacity: 6,
-  storedAt: "Ammunition Depot"
-};
-
-var vehicle2 = {
-  type: "Jet Ski",
-  capacity: 1,
-  storedAt: "Reef Dock"
-};
-
-var vehicle3 = {
-  type: "Submarine",
-  capacity: 8,
-  storedAt: "Underwater Outpost"
-};

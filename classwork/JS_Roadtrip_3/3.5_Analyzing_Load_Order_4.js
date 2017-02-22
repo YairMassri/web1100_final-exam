@@ -23,19 +23,3 @@ function theBridgeOfHoistingDoom() {
   ring();
   return sword;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer:
-TypeError

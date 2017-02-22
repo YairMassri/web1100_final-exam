@@ -36,32 +36,3 @@ var canyonCows = [
 // Note: You do not need to call the countCattle function. We’ll call it when
 // testing your code. You also do not need to include the canyonCows array in
 // your code submission.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-Array.prototype.countCattle = function(kind) {
-	var numKind = 0;
-
-  for(var i = 0, x = this.length; i < x; i++) {
-    if(this[i].type == kind) {
-    	numKind++;
-    }
-  }
-
-  return numKind;
-};

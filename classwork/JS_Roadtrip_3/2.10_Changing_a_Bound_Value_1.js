@@ -33,37 +33,3 @@ function warningMaker(obstacle) {
     );
   };
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Answer example:
-function warningMaker(obstacle) {
-  // create a count
-  var count = 0;
-  return function(number, location) {
-    // keep track of warnings
-    count++;
-
-    alert(
-      "Beware! There have been " + obstacle +
-      " sightings in the Cove today!\n" +
-      number + " have been spotted at the " +
-      location + "!\n" +
-      // finish the warning message here
-      "This is alert #" + count + " today for " +
-      obstacle + " danger."
-    );
-  };
-}
