@@ -22,8 +22,8 @@ body {
 .player1,
 .player2,
 .tile {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
 }
 
 .player1 {
@@ -101,6 +101,6 @@ body {
 
 .winner {
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
 }
