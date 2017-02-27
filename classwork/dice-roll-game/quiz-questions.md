@@ -1,55 +1,24 @@
 ## Let's Make Sure We Understand
 
-1. What is jQuery?
+1. How do we select an HTML element by its id?
 
-2. How do we put jQuery into our project?
+2. How do we tell the browser to listen for clicks on an element?
 
-3. How do we select an HTML element by its id using jQuery?
+3. Why do we put a dollar at the beginning of some variable names?
 
-4. How do we tell the browser to listen for clicks on an element?
+4. How do you get the position of an element in the browser?
 
-5. Why de we save jQuery selections into a JavaScript variable?
+5. What is the range of numbers that Math.random() returns?
 
-6. Why do we put a dollar at the beginning of some variable names?
+6. Using Math.random(), how can we get a random number between 1 and 20?
 
-7. If you want to use a plain JavaScript method on a jQuery object,
-   what do you need to do?
+7. How do you change the 'src' attribute on an image, using JavaScript? How do you change the 'title' attribute?
 
-8. What is the range of numbers that Math.random() returns?
+8. What does the setTimeout function do?
 
-9. Using Math.random(), how can we get a random number between 1 and 20?
+9. How do you change the text of an HTML element using JavaScript?
 
-10. Which jQuery method allows me to change an HTML's attribute?
-
-11. Using jQuery, how would I change the src atribute on an img element with
-    an id of "profile"?
-
-12. What does the setTimeout function do?
-
-13. Using jQuery, how would I change the text inside of a p with and id of
-    "subtitle"?
-
-14. Inside a function, what keyword quits the function, thus ignoring all
+10. Inside a function, what keyword quits the function, thus ignoring all
     the code below this keyword?
 
-15. What type of loop do we use to iterate through an object?
-
-16. Write a loop that iterates through the properties in the following object
-    and prints each property and value to the console:
-   ```JavaScript
-    var mustang = {
-        engine: '5.2L V8'
-        horsepower: 526,
-        torque: 429,
-        supercharged: true,
-        turbocharged: false
-    };
-    ```
-17. Which JavaScript method gets the position of an element?
-
-18. What is the main difference between function declarations and function
-    expressions?
-
-19. How do we add a class to an element using jQuery? How do we remove a class?
-
-20. What is "chaining" in JavaScript?
+11. How do we add a CSS class to an element? How do we remove a class?
