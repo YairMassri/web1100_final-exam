@@ -12,18 +12,16 @@ body {
     padding-top: 10px;
 }
 
-.player1,
-.player2 {
+.player {
     box-shadow: 0 2px 5px 0 #000;
     transition: all 400ms;
     left: 10px;
 }
 
-.player1,
-.player2,
+.player,
 .tile {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
 }
 
 .player1 {
@@ -31,6 +29,10 @@ body {
     background-image: url('../img/hillary.png');
     background-size: cover;
     top: 160px;
+}
+
+.player1.alter-ego {
+    background-image: url('../img/soros.jpg');
 }
 
 .player1::before {
@@ -46,6 +48,10 @@ body {
     top: 250px;
     background-image: url('../img/trump.png');
     background-size: cover;
+}
+
+.player2.alter-ego {
+    background-image: url('../img/putin.jpg');
 }
 
 .player2::before {
@@ -101,6 +107,6 @@ body {
 
 .winner {
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 160px;
+    height: 160px;
 }

@@ -12,15 +12,13 @@ body {
     padding-top: 10px;
 }
 
-.player1,
-.player2 {
+.player {
     box-shadow: 0 2px 5px 0 #000;
     transition: all 400ms;
     left: 10px;
 }
 
-.player1,
-.player2,
+.player,
 .tile {
     width: 70px;
     height: 70px;
