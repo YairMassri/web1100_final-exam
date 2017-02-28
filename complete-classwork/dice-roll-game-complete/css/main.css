@@ -33,6 +33,10 @@ body {
     top: 160px;
 }
 
+.player1.alter-ego {
+    background-image: url('../img/soros.jpg');
+}
+
 .player1::before {
     position: relative;
     content: 'P 1';
@@ -46,6 +50,10 @@ body {
     top: 250px;
     background-image: url('../img/trump.png');
     background-size: cover;
+}
+
+.player2.alter-ego {
+    background-image: url('../img/putin.jpg');
 }
 
 .player2::before {
@@ -101,6 +109,6 @@ body {
 
 .winner {
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
