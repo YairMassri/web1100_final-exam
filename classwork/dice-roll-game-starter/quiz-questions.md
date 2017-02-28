@@ -1,5 +1,7 @@
 ## Let's Make Sure We Understand
 
+The following questions are about JavaScript.
+
 1. How do we select an HTML element by its id?
 
 2. How do we tell the browser to listen for clicks on an element?
