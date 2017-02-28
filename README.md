@@ -23,10 +23,10 @@ Then, they will build a full pascal triangle by using a **recursive function** b
 If there is time left, we introduce the [dice-roll-game](./complete-classwork/dice-roll-game-complete).
 
 ##Day 3:
-Guide the students through creating the [dice-roll-game](./complete-classwork/dice-roll-game-complete). Students will practice using jQuery to create user interaction. Students will also practice using prototypal inheritance by creating methods for the players in the dice-roll-game. Lastly, students will practice using asynchronous JavaScript by using the setTimeout API in the dice-roll-game.
+Guide the students through creating the [dice-roll-game](./classwork/dice-roll-game-starter). Students will practice using jQuery to create user interaction. Students will also practice using prototypal inheritance by creating methods for the players in the dice-roll-game. Lastly, students will practice using asynchronous JavaScript by using the setTimeout API in the dice-roll-game.
 
 ##Day 4:
-Start with the [quiz-questions](./classwork/dice-roll-game/quiz-questions.md) for the dice-roll-game for review.
+Start with the [quiz-questions](./classwork/dice-roll-game-starter/quiz-questions.md) for the dice-roll-game for review.
 Then discuss [Asynchronous JavaScript](https://www.youtube.com/watch?v=vMfg0xGjcOI) and explain how we have used it in previous apps that use $.ajax and in our dice-roll-game, which uses setTimeout.
 Also, [What the heck is the Event Loop Anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ).
 Then complete the dice-roll-game.
