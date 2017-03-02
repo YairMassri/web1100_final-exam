@@ -1,8 +1,8 @@
 // Question 2
 
-// Create a function called adventureSelector that takes 1 argument/parameter.
-// adventureSelector should return 1 of 3 different anonymous function, based on the
-// number that is passed into it.
+// Create a function called adventureSelector that takes 1 argument/parameter
+// called num. adventureSelector should return 1 of 3 different anonymous
+// functions, based on the number that is passed into it.
 //
 // Each of the three anonymous functions should console.log the following messages:
 //

@@ -3,12 +3,12 @@
 // Add a new property to the cars object called 'getModels' WITHOUT typing inside
 // the cars definition below.
 
-// The value of the getModels property should be a function that creates an
-// empty array called models, then pushes only the models from cars.list to the
-// models array, and then returns the models array, similar to how the getBrands
+// The value of the getYears property should be a function that creates an
+// empty array called years, then pushes only the years from cars.list to the
+// years array, and then returns the years array, similar to how the getBrands
 // method works.
 
-// Lastly, log to the console the return value of the getModels method.
+// Lastly, log to the console the return value of the getYears method.
 
 var cars = {
     list: [

@@ -1,22 +1,9 @@
 <!-- Question 8 -->
 
-<!-- The getBoundingClientRect method can only be used on elements selected with
-plain javascript, such as the button stored in btn below: -->
-
-<script>
-    setTimeout(function() {
-
-        var btn = document.getElementById('btn');
-        var btnPosition = btn.getBoundingClientRect();
-        console.log("Button top position: " + btnPosition.top );
-
-    }, 500);
-</script>
-
-<!-- In the script element at the bottom of the body, use the getBoundingClientRect
-method on the $btn variable. Since $btn has a jQuery element inside of it, you
-need to do something different than in the code above. Then console.log the top position
-of the $btn element, similar to how it was done above. -->
+<!-- In the script element at the bottom of the body, create a new variable
+called paragraphPosition and assign to it the position of the paragraph, using
+the getBoundingClientRect method. Then console.log the top value
+of the paragraphPosition. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,12 +21,9 @@ of the $btn element, similar to how it was done above. -->
 
     <p id="paragraph">Hello</p>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
     <!-- Your JavaScript code -->
     <script>
-        var $btn = $('#btn');
+
     </script>
 </body>
 </html>

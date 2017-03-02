@@ -8,5 +8,3 @@
 function plusFive(num) {
   return num + 5;
 }
-
-var bar = plusFive;

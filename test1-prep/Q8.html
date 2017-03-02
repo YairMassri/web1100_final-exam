@@ -1,22 +1,9 @@
 <!-- Question 8 -->
 
-<!-- The getBoundingClientRect method can only be used on elements selected with
-plain javascript, such as button stored in subtitle below: -->
-
-<script>
-    setTimeout(function() {
-
-        var subtitle = document.getElementById('subtitle');
-        var subtitlePosition = subtitle.getBoundingClientRect();
-        console.log("subtitle top position: " + subtitlePosition.top );
-
-    }, 500);
-</script>
-
-<!-- In the script element at the bottom of the body, use the getBoundingClientRect
-method on the $subtitle variable. Since $subtitle has a jQuery element inside of it, you
-need to do something different than in the code above. Then consol.log the top position
-of the $subtitle element, similar to how it was done above. -->
+<!-- In the script element at the bottom of the body, create a new variable
+called subtitlePosition and assign to it the position of the subtitle, using
+the getBoundingClientRect method. Then console.log the top value
+of the subtitlePosition. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,14 +21,9 @@ of the $subtitle element, similar to how it was done above. -->
 
     <h3 id="subtitle">It's not that bad</h3>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
     <!-- Your JavaScript code -->
     <script>
-        var $subtitle = $('#subtitle');
-        var subtitlePosition = $subtitle[0].getBoundingClientRect();
-        console.log("subtitle top position: " + subtitlePosition.top );
+        
     </script>
 </body>
 </html>
