@@ -14,10 +14,10 @@ $(document).ready(function() {
 
     function articleMaker(title, snippet) {
         var article = '';
-        article += '<div class="article">';
+        article += '<a target="_blank" class="article" href="https://en.wikipedia.org/wiki/"' + title + '>';
         article +=      '<h3>' + title + '</h3>';
         article +=      '<p>' + snippet + '</p>';
-        article += '</div>';
+        article += '</a>';
 
         // IMPORTANT: make sure each article can be clicked on and takes you to the
         // wikipedia page of that article. Hint: use an anchor element.
