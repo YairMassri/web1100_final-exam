@@ -18,10 +18,6 @@ $(document).ready(function() {
         article +=      '<h3>' + title + '</h3>';
         article +=      '<p>' + snippet + '</p>';
         article += '</a>';
-
-        // IMPORTANT: make sure each article can be clicked on and takes you to the
-        // wikipedia page of that article. Hint: use an anchor element.
-        
         return article;
     }
 
