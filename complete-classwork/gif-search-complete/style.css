@@ -73,4 +73,5 @@ form button {
 
 .results img {
     margin: 10px;
+    min-width: 150px;
 }

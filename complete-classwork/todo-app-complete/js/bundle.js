@@ -249,6 +249,8 @@ tasksContainer.addEventListener('click', function(event) {
         // get the task's text from it's paragraph element and set that as the
         // value of the editor's input element
         editorInput.value = event.target.previousSibling.previousSibling.textContent
+        // focus on editor input
+        editorInput.focus()
     }
 })
 
