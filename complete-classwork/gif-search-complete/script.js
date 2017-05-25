@@ -1,5 +1,5 @@
-const rootUrl = 'http://api.giphy.com/v1/gifs/search?q='
-const api_key = '&api_key=dc6zaTOxFJmzC'
+const giphy_endpoint = 'http://api.giphy.com/v1/gifs/search'
+const giphy_api_key = 'dc6zaTOxFJmzC'
 
 const searchForm = document.querySelector('#search-form')
 const searchInput = document.querySelector('#search-form input')
@@ -20,7 +20,11 @@ function buildImages(data) {
 
 function search(term) {
     axios({
-        url: rootUrl + encodeURI(term) + api_key
+        url: giphy_endpoint,
+        params: {
+            q: encodeURI(term),
+            api_key: giphy_api_key
+        }
     })
     .then(function(res) {
         console.log(res);
