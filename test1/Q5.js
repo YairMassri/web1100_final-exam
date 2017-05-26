@@ -1,6 +1,6 @@
 // Question 5
 
-// Add a new property to the cars object called 'getModels' WITHOUT typing inside
+// Add a new property to the cars object called 'getYears' WITHOUT typing inside
 // the cars definition below.
 
 // The value of the getYears property should be a function that creates an
