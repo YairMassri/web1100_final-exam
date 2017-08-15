@@ -1,36 +1,34 @@
 const api_url = 'https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch='
 const wiki_link = 'https://en.wikipedia.org/wiki'
 
-const btn = document.querySelector('#searchButton')
-const input = document.querySelector('#searchBox')
-const articlesContainer = document.querySelector('#articlesContainer')
+const articlesContainer = document.querySelector('.articles-container')
 
-function getArticles(term) {
+function getArticles(searchTerm) {
     $.ajax({
-        url: api_url + term,
-        dataType: "jsonp",
-        success: function(response) {
-            console.log(response);
+        url: api_url + searchTerm,
+        dataType: 'jsonp'
+    })
+    .done(function(response) {
+        console.log(response);
 
-            let articlesString = ''
-            response.query.search.forEach(function(article) {
-                articlesString += `<a class="article" href="${wiki_link}/${article.title}">`
-                articlesString += `<h3>${article.title}</h3>`
-                articlesString += `<p>${article.snippet}</p>`
-                articlesString += `</a>`
-            })
+        for(let i = 0; i < response.query.search.length; i++) {
+            const title = response.query.search[i].title
+            const snippet = response.query.search[i].snippet
 
-            articlesContainer.innerHTML = articlesString
+            articlesContainer.innerHTML += `
+                <a class="article" href="${wiki_link}/${title}" target="_blank" rel="noopener">
+                    <h3 class="article-title">${title}</h3>
+                    <p class="article-snippet">${snippet}</p>
+                </a>
+            `
         }
     })
 }
 
-btn.addEventListener('click', function() {
-     getArticles(input.value)
-})
+searchForm.addEventListener('submit', function(event) {
+    event.preventDefault()
 
-input.addEventListener('keypress', function(event) {
-    if(event.keyCode === 13) {
-        getArticles(input.value)
-    }
+    articlesContainer.innerHTML = ''
+
+    getArticles(search.value)
 })
