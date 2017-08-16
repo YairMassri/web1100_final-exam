@@ -7,9 +7,6 @@
 3. For each breed in the breeds array you created in step 2, create an '<option></option>' HTML element (with javascript) and place it inside the select element. Each option element should have a breed for its text content. If it works correctly, the select element will show a dropdown list of dog breeds when you click on it.
 
 4. Next, we want our Dog App to display a picture of the selected dog breed when the user clicks on the View Dog button. Listen for clicks on the viewDog button.
-
-5. When a user clicks on the viewDog button, create a variable called breedName and assign to it the value of the select element (the selected dog breed). Log the breedName to the console to make sure it has the selected dog breed, then delete the console log.
-
-6. Use $.ajax() to get a random image of the selected breed. Look at the Dog API docs under the "By Breed" section (https://dog.ceo/dog-api/#breed) to figure out what $.ajax's url property should be. HINT: You will need to use the breedName variable in the url. Log the response to the console to make sure it has an image URL in the message property, then delete this console log.
-
-7. Using the setAttribute function (https://www.w3schools.com/Jsref/met_element_setattribute.asp), set the img element's src attribute to the image URL from inside response.message. If it works correctly, this will display an image of a dog on the page.
+    - When a user clicks on the viewDog button, create a variable called breedName and assign to it the value of the select element (the selected dog breed). Log the breedName to the console to make sure it has the selected dog breed, then delete the console log.
+    - Use $.ajax() to get a random image of the selected breed. Look at the Dog API docs under the "By Breed" section (https://dog.ceo/dog-api/#breed) to figure out what $.ajax's url property should be. HINT: You will need to use the breedName variable in the url. Log the response to the console to make sure it has an image URL in the message property, then delete this console log.
+    - Using the setAttribute function (https://www.w3schools.com/Jsref/met_element_setattribute.asp), set the img element's src attribute to the image URL from inside response.message. If it works correctly, this will display an image of a dog on the page.
