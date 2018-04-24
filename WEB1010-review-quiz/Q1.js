@@ -6,3 +6,8 @@
 
 // Then log your first and last names to the console with a space in
 // between them. You must use the firstName and lastName variables.
+
+var firstName = "Yair";
+var lastName = " Massri";
+
+console.log(firstName+lastName)

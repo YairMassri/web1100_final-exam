@@ -5,3 +5,11 @@
 
 // Then called the plus10 function inside of a console.log, pasing in
 // the number 4 as the argument.
+
+
+
+function plus10(a){
+   return a+10;
+}
+
+console.log(plus10(4))

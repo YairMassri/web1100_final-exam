@@ -7,3 +7,9 @@
 //      ["ford", "f-150"]
 //      ["honda", "civic"]
 //      ["jaguar", "f-type"]
+
+var cars = []
+
+cars.push("ford", "f-150","honda", "civic","jaguar", "f-type")
+
+console.log(cars)

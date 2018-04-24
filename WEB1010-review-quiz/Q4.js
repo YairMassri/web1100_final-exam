@@ -7,3 +7,7 @@
 //      "It ain't over til
 //      it's over."
 //             - Yogi Berra
+
+var a = "\"It ain't over til\n\tit's over.\"\n\t- Yogi Berra"
+
+console.log(a)

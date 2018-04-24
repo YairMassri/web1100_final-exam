@@ -5,3 +5,6 @@ var cars = [
     ["jaguar", "f-type"]
 ];
 // Log to the console "f-type" using the cars variable.
+
+
+console.log(cars[2][1])
